@@ -2,32 +2,32 @@
 using namespace std;
 int main(){
 	int a;
-	cout<<"heftenin gununu sec(1-7): ";
+	cout<<"Select the day of the week(1-7): ";
 	cin>>a;
 	switch (a) {
 	case 1:
-		cout<<"kitabxana";
+		cout<<"Library";
 		break;
 	case 2:
-		cout<<"boks";
+		cout<<"Boxing";
 		break;
 	case 3:
-		cout<<"ders ";
+		cout<<"Lesson";
 		break;
 	case 4:
-		cout<<"boks";
+		cout<<"Boxing";
 		break;
 	case 5:
-		cout<<"fasile";	
+		cout<<"Break/Rest";	
 		break;
 	case 6:
-		cout<<"boks";
+		cout<<"Boxing";
 		break;
 	case 7:
-		cout<<"umumi";
+		cout<<"General/Review";
 		break;
 	default:
-		cout<<"yanlis";
+		cout<<""Invalid input! Please enter a number between 1 and 7.";
 		break;
 }			
 }
