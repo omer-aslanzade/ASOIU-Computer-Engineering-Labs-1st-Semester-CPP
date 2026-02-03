@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int a;
+	cout<<"heftenin gununu sec(1-7): ";
+	cin>>a;
+	switch (a) {
+	case 1:
+		cout<<"kitabxana";
+		break;
+	case 2:
+		cout<<"boks";
+		break;
+	case 3:
+		cout<<"ders ";
+		break;
+	case 4:
+		cout<<"boks";
+		break;
+	case 5:
+		cout<<"fasile";	
+		break;
+	case 6:
+		cout<<"boks";
+		break;
+	case 7:
+		cout<<"umumi";
+		break;
+	default:
+		cout<<"yanlis";
+		break;
+}			
+}
