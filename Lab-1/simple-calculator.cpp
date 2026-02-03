@@ -1,37 +1,37 @@
 #include <iostream>
 using namespace std;
 int main(){
-	int a,b;
+	double a,b;
 	char c;
 	
-	cout<<" birinci ededi daxil edin";
+	cout<<"Enter first number";
 	cin>>a;
 	
-	cout<<"emeli daxiledin(+,-,/,*, :";
+	cout<<"Enter operator(+,-,/,*, :";
 	cin>>c;
 	
-	cout<<"ikinci ededi daxil edin";
+	cout<<"Enter second number:";
 	cin>>b;
 	switch(c) {
 		case '+':
-			cout<<"netice:" <<a+b;
+			cout<<"Result:" <<a+b;
 			break;
 			
 		case '-':
-			cout<<"netice:"<<	a-b;
+			cout<<"Result:"<<	a-b;
 			break;
 		
 		case '*':
-			cout<<"netice:" <<a*b;
+			cout<<"Result:" <<a*b;
 			break;
 		case '/':
 			if (b!=0)
-				cout<<"netice:"<< a/b;
+				cout<<"Result:"<< a/b;
 			else
-				cout<<"sifira bolme yoxdu";
+				cout<<"Error: Division by zero!";
 				break;
 		default:
-			cout<<"nese yalnis var emmellerde yanlis elemis ola bilersen ";
+			cout<<"Invalid operator! ";
 			break;			
 					
 	}	
