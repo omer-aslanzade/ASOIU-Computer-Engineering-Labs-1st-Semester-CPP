@@ -1,2 +1,2 @@
 # ASOIU-Computer-Engineering-Labs-1st-Semester-CPP
-Programming assignments and lab works for 1st-year, 1st-semester Computer Engineering student at Azerbaijan State Oil and Industry University (ASOIU). Language: C++.
+Solutions and practice codes for "Basics of Programming (C++)" course, developed and implemented by me during my 1st semester as a Computer Engineering student at ASOIU.
